@@ -36,6 +36,7 @@ import Tab_Navigation from './components/lecture_9z_43_Tab_Navigation/Tab_Naviga
 import Tab_NavigationTop from './components/lecture_9z_44_Tab_NavigationTop/Tab_Navigation';
 import Fetch_Api from './components/lecture_9z_46_Fetch_Api/Fetch_Api';
 import ListWithApiData from './components/lecture_9z_47_ListWithApiData/ListWithApiData';
+import FlatListWithApiData from './components/lecture_9z_48_FlatListWithApiData/FlatListWithApiData';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -142,7 +143,9 @@ function App(): JSX.Element {
 
       {/* <Fetch_Api/> */}
 
-      <ListWithApiData/>
+      {/* <ListWithApiData/> */}
+
+      <FlatListWithApiData/>
 
     </View>
 
