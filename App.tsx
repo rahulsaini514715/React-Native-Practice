@@ -32,6 +32,7 @@ import StackNavigationPractice from './components/lecture_9z_39_Stack_Navigation
 import Stack_NavigationStyle from './components/lecture_9z_40_Stack_NavigationStyle/StackNavigationPractice';
 import StackNavigationButtonAndComponent from './components/lecture_9z_41_Stack_NavigationButtonAnd_Component/StackNavigationButtonAndComponent';
 import Stack_Navigation_passsing_data_between_screen from './components/lecture_9z_42_Stack_Navigation_passing_data_between_screen/Stack_Navigation_passing_data_between_screen';
+import Tab_Navigation from './components/lecture_9z_43_Tab_Navigation/Tab_Navigation';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -129,7 +130,10 @@ function App(): JSX.Element {
 
       {/* <StackNavigationButtonAndComponent/> */}
 
-      <Stack_Navigation_passsing_data_between_screen/>
+      {/* <Stack_Navigation_passsing_data_between_screen/> */}
+
+
+      <Tab_Navigation/>
 
     </View>
 
