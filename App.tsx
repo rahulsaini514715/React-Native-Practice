@@ -30,6 +30,7 @@ import NpmInstallWebView from './components/lecture_9z_36_Npm_Install_WebView/Np
 import CustomDialogWithoutModal from './components/lecture_9z_37_Custom_modal_Dialog_Box/CustomDialogWithoutModal';
 import StackNavigationPractice from './components/lecture_9z_39_Stack_Navigation/StackNavigationPractice';
 import Stack_NavigationStyle from './components/lecture_9z_40_Stack_NavigationStyle/StackNavigationPractice';
+import StackNavigationButtonAndComponent from './components/lecture_9z_41_Stack_NavigationButtonAnd_Component/StackNavigationButtonAndComponent';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -121,7 +122,11 @@ function App(): JSX.Element {
       {/* <StackNavigationPractice/> */}
       
       
-      <Stack_NavigationStyle/>
+      {/* <Stack_NavigationStyle/> */}
+
+
+
+      <StackNavigationButtonAndComponent/>
 
     </View>
 
