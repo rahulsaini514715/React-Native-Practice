@@ -45,6 +45,9 @@ import SearchWithApi from './components/lecture_9z_55_SearchWithApi/SearchWithAp
 import RefPractice from './components/lecture_9z_61_Ref/RefPractice';
 import AsyncStorageScreen from './components/lecture_9z_64_Async_Storage/AsyncStorage';
 import ElementInspectorPractice from './components/lecture_9z_65_ElementInspector/ElementInspectorPractice';
+import UICart from "./componentsRedux/Redux_Lec_2/UICart"
+
+
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -173,7 +176,12 @@ function App(): JSX.Element {
       {/* <AsyncStorageScreen/> */}
   
 
-      <ElementInspectorPractice/>
+      {/* <ElementInspectorPractice/> */}
+
+
+      {/* Redux Start  */}
+
+      <UICart/>
 
       
 
