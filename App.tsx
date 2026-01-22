@@ -42,6 +42,7 @@ import PostDataFromJsonServer from './components/lecture_9z_52_PostDataFromJsonS
 import ValidationPostDataFromJsonServer from './components/lecture_9z_53_ValidationPostDataFromJsonServer/ValidationPostDataFromJsonServer';
 import ListWithApiDataUpdateAndDelete from './components/lecture_9z_54_ListWithApiData_JsonServer/ListWithApiDataUpdateAndDelete';
 import SearchWithApi from './components/lecture_9z_55_SearchWithApi/SearchWithApi';
+import RefPractice from './components/lecture_9z_61_Ref/RefPractice';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -162,7 +163,10 @@ function App(): JSX.Element {
 
       {/* <ListWithApiDataUpdateAndDelete/> */}
 
-      <SearchWithApi/>
+      {/* <SearchWithApi/> */}
+
+
+      <RefPractice/>
 
     </View>
 
