@@ -43,6 +43,8 @@ import ValidationPostDataFromJsonServer from './components/lecture_9z_53_Validat
 import ListWithApiDataUpdateAndDelete from './components/lecture_9z_54_ListWithApiData_JsonServer/ListWithApiDataUpdateAndDelete';
 import SearchWithApi from './components/lecture_9z_55_SearchWithApi/SearchWithApi';
 import RefPractice from './components/lecture_9z_61_Ref/RefPractice';
+import AsyncStorageScreen from './components/lecture_9z_64_Async_Storage/AsyncStorage';
+import ElementInspectorPractice from './components/lecture_9z_65_ElementInspector/ElementInspectorPractice';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -166,7 +168,14 @@ function App(): JSX.Element {
       {/* <SearchWithApi/> */}
 
 
-      <RefPractice/>
+      {/* <RefPractice/> */}
+
+      {/* <AsyncStorageScreen/> */}
+  
+
+      <ElementInspectorPractice/>
+
+      
 
     </View>
 
