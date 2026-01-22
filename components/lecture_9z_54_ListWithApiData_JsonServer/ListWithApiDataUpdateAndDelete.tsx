@@ -13,6 +13,21 @@ const ListWithApiDataUpdateAndDelete = () => {
     }
   }
 
+
+  const deleteUser =async(id)=>{
+    const url = "http://192.168.1.34:3000/users";
+    let result = await fetch(`${url}/${id}`, {
+      method: "DELETE"
+    });
+if (result.status === 200) {
+    console.warn("User deleted");
+    getAPIData(); //  refresh list
+  }
+    if(result){
+       console.warn("User deleted")
+    }
+  }
+
   useEffect(() => {
     getAPIData();
   }, [])
@@ -44,7 +59,7 @@ const ListWithApiDataUpdateAndDelete = () => {
           </View>
 
           <View style={{ flex: 1 }}>
-            <Button title='Delete' />
+            <Button title='Delete' onPress={()=> deleteUser(item.id)} />
           </View>
           <View style={{ flex: 1 }}>
             <Button title='Update' />
