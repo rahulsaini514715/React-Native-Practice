@@ -1,8 +1,16 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, Image } from 'react-native';
+import { addToCart } from './redux/action';
+import { useDispatch } from 'react-redux';
 
 const Product = props => {
   const item = props.item;
+  const dispatch = useDispatch();
+
+  const handleAddToCart = item => {
+    // console.warn("called",item);
+    dispatch(addToCart(item))
+  };
   return (
     <View
       style={{
@@ -16,7 +24,7 @@ const Product = props => {
       <Text style={{ fontSize: 24 }}>{item.price}</Text>
       <Text style={{ fontSize: 24 }}>{item.color}</Text>
       <Image style={{ width: 200, height: 200 }} source={{ uri: item.image }} />
-      <Button title="Add To Cart" />
+      <Button title="Add To Cart" onPress={() => handleAddToCart(item)} />
     </View>
   );
 };
