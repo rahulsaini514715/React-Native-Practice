@@ -21,7 +21,9 @@ const Fetch_Api = () => {
       <Text>Fetch API Example</Text>
 
       {data.map(item => (
+        <Text key={item.id}>{item.id}</Text>
         <Text key={item.id}>{item.title}</Text>
+        <Text key={item.id}>{item.body}</Text>
       ))}
     </View>
   );
