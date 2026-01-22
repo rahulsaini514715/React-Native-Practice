@@ -41,6 +41,7 @@ import FetchDataFromJsonServer from './components/lecture_9z_51_FetchDataFromJso
 import PostDataFromJsonServer from './components/lecture_9z_52_PostDataFromJsonServer/PostDataFromJsonServer';
 import ValidationPostDataFromJsonServer from './components/lecture_9z_53_ValidationPostDataFromJsonServer/ValidationPostDataFromJsonServer';
 import ListWithApiDataUpdateAndDelete from './components/lecture_9z_54_ListWithApiData_JsonServer/ListWithApiDataUpdateAndDelete';
+import SearchWithApi from './components/lecture_9z_55_SearchWithApi/SearchWithApi';
 
 const name = "Rahul R saini";
 // var email = "abc@test.com";
@@ -159,7 +160,9 @@ function App(): JSX.Element {
       {/* <ValidationPostDataFromJsonServer/> */}
 
 
-      <ListWithApiDataUpdateAndDelete/>
+      {/* <ListWithApiDataUpdateAndDelete/> */}
+
+      <SearchWithApi/>
 
     </View>
 
