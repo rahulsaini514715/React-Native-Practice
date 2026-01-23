@@ -46,6 +46,7 @@ import RefPractice from './components/lecture_9z_61_Ref/RefPractice';
 import AsyncStorageScreen from './components/lecture_9z_64_Async_Storage/AsyncStorage';
 import ElementInspectorPractice from './components/lecture_9z_65_ElementInspector/ElementInspectorPractice';
 import UICart from "./componentsRedux/Redux_Lec_2/UICart"
+import UICartNavigationWithRedux from "./componentsRedux/Redux_Lec_3_ReactNavigationWithRedux/UICartNavigationWithRedux"
 
 
 
@@ -181,7 +182,9 @@ function App(): JSX.Element {
 
       {/* Redux Start  */}
 
-      <UICart/>
+      {/* <UICart/> */}
+
+      <UICartNavigationWithRedux/>
 
       
 
